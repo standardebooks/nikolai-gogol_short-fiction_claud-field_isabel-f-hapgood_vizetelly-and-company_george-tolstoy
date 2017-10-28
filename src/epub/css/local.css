@@ -1,2 +1,71 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+section[epub|type~="z3998:diary"] + *{
+	margin-top: 3em;
+}
+
+article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"]::before{
+	border-top: 1px solid;
+	content: '';
+	display: block;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
+
+article[epub|type~="z3998:diary-entry"] p:first-child{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
+p span.i3{
+	text-indent: -1em;
+	padding-left: 4em;
+}
+
+[epub|type~="z3998:letter"] > p:first-child{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:recipient"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:valediction"]{
+	text-align: right;
+}
+
+[epub|type~="z3998:sender"]{
+	font-variant: small-caps;
+	text-align: right;
+}
