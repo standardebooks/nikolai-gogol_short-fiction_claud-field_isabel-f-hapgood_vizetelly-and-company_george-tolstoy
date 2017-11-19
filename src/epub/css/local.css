@@ -1,6 +1,21 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+blockquote header p{
+	text-align: center;
+	font-variant: small-caps;
+}
+
+blockquote header + p{
+	margin-top: 1em;
+	text-indent: 0;
+}
+
 section[epub|type~="z3998:diary"] + *{
 	margin-top: 3em;
 }
