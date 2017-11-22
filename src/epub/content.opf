@@ -23,12 +23,12 @@
 		<dc:subject id="subject-2">SUBJECT2</dc:subject>
 		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
 		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
+		<meta id="long-description" property="se:long-description" refines="#description">
 			LONGDESCRIPTION
-		]]></meta>
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/mantleotherstori00gogorich</dc:source>

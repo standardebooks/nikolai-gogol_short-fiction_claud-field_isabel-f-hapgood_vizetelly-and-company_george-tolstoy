@@ -16,10 +16,6 @@ blockquote header + p{
 	text-indent: 0;
 }
 
-section[epub|type~="z3998:diary"] + *{
-	margin-top: 3em;
-}
-
 article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"]::before{
 	border-top: 1px solid;
 	content: '';
@@ -38,10 +34,6 @@ article[epub|type~="z3998:diary-entry"] p:first-child{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:poem"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -57,11 +49,6 @@ p span.i1{
 	padding-left: 2em;
 }
 
-p span.i2{
-	text-indent: -1em;
-	padding-left: 3em;
-}
-
 p span.i3{
 	text-indent: -1em;
 	padding-left: 4em;
@@ -71,7 +58,6 @@ p span.i3{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:salutation"],
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
 }
