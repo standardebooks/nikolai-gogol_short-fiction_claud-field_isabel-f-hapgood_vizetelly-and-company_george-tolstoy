@@ -100,7 +100,6 @@
 		<item href="text/st-johns-eve.xhtml" id="st-johns-eve.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/taras-bulba.xhtml" id="taras-bulba.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-calash.xhtml" id="the-calash.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-cloak.xhtml" id="the-cloak.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-mantle.xhtml" id="the-mantle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-mysterious-portrait.xhtml" id="the-mysterious-portrait.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-nose.xhtml" id="the-nose.xhtml" media-type="application/xhtml+xml"/>
@@ -120,7 +119,6 @@
 		<itemref idref="memoirs-of-a-madman.xhtml"/>
 		<itemref idref="the-nose.xhtml"/>
 		<itemref idref="the-calash.xhtml"/>
-		<itemref idref="the-cloak.xhtml"/>
 		<itemref idref="the-mantle.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
