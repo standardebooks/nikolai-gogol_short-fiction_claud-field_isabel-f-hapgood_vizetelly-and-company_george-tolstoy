@@ -16,7 +16,7 @@ blockquote header + p{
 	text-indent: 0;
 }
 
-article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"]::before{
+[epub|type~="z3998:diary-entry"] + [epub|type~="z3998:diary-entry"]::before{
 	border-top: 1px solid;
 	content: '';
 	display: block;
@@ -25,7 +25,7 @@ article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"
 	width: 25%;
 }
 
-article[epub|type~="z3998:diary-entry"] p:first-child{
+[epub|type~="z3998:diary-entry"] p:first-child{
 	text-indent: 0;
 }
 
