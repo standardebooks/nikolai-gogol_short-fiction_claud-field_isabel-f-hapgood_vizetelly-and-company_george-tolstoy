@@ -31,10 +31,12 @@
 		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/36238</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of Gogol’s translated short stories and novellas ordered by date of publication.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;Nikolai Gogol spent most of his literary career writing short stories, drawing inspiration from his childhood in Ukraine and his adult life in &lt;abbr&gt;St.&lt;/abbr&gt; Petersburg. His stories are filled with larger than life yet relatable characters and perfectly described locations, and span many genres from historical epics to early horror and surrealism.&lt;/p&gt;
+			&lt;p&gt;His influence on Russian literature cannot be understated: Fyodor Dostoyevsky is quoted as saying “We all come out from Gogol’s &lt;i&gt;Overcoat&lt;/i&gt;” and mentioned him by name in &lt;i&gt;Crime and Punishment&lt;/i&gt;, Mikhail Bulgakov stated that “no-one can compare with him,” and Vladimir Nabokov wrote a full biography. Many of these stories have been adapted for stage and film, including the &lt;i&gt;The Nose&lt;/i&gt; as an opera by Dmitri Shostakovich.&lt;/p&gt;
+			&lt;p&gt;Collected here are all of the public domain translations into English of Gogol’s short stories, in chronological order of the original Russian publication. They were translated by Paul Field, Isabel &lt;abbr&gt;F.&lt;/abbr&gt; Hapgood and Vizetelly and Company.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
@@ -44,7 +46,7 @@
 		<!-- The Mantle, and Other Stories by Nikolai Vasilevich Gogol -->
 		<dc:source>https://en.wikisource.org/wiki/Old-Fashioned_Farmers</dc:source>
 		<!-- Old-Fashioned Farmers by Nikolai Vasilevich Gogol -->
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">This isn’t all of Gogol’s short-stories, but it’s all that I could find that have been translated into English pre-1923.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Nikolai_Gogol_bibliography</meta>
