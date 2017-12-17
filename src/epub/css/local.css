@@ -25,10 +25,6 @@ blockquote header + p{
 	width: 25%;
 }
 
-[epub|type~="z3998:diary-entry"] p:first-child{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
@@ -52,10 +48,6 @@ p span.i1{
 p span.i3{
 	text-indent: -1em;
 	padding-left: 4em;
-}
-
-[epub|type~="z3998:letter"] > p:first-child{
-	text-indent: 0;
 }
 
 [epub|type~="z3998:salutation"],
