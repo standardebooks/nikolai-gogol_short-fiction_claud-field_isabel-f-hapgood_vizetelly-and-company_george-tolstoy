@@ -17,14 +17,6 @@
 			font-size: 93.56725311px;
 		}
 
-		.title-small{
-			font-size: 70.17543793px;
-		}
-
-		.title-xsmall{
-			font-size: 58.47953033px;
-		}
-
 		.author{
 			font-size: 46.7840004px;
 		}
