@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/nikolai-gogol/short-fiction/claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy</dc:identifier>
 		<dc:date>2017-12-20T17:05:13Z</dc:date>
 		<meta property="dcterms:modified">2019-01-20T17:54:45Z</meta>
 		<meta property="se:revision-number">16</meta>
@@ -45,26 +45,29 @@
 		<dc:description id="description">A collection of Gogol’s translated short stories and novellas ordered by date of publication.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Nikolai Gogol spent most of his literary career writing short stories, drawing inspiration from his childhood in Ukraine and his adult life in St. Petersburg. His stories are filled with larger than life yet relatable characters and perfectly described locations, and span many genres from historical epics to early horror and surrealism.&lt;/p&gt;
+			&lt;p&gt;Nikolai Gogol spent most of his literary career writing short stories, drawing inspiration from his childhood in Ukraine and his adult life in &lt;abbr&gt;St.&lt;/abbr&gt; Petersburg. His stories are filled with larger than life yet relatable characters and perfectly described locations, and span many genres from historical epics to early horror and surrealism.&lt;/p&gt;
 			&lt;p&gt;His influence on Russian literature cannot be understated: Fyodor Dostoevsky is quoted as saying “We all come out from Gogol’s ‘Overcoat,’ ” (presented here as “The Mantle”) and mentioned him by name in &lt;i&gt;Crime and Punishment&lt;/i&gt;; Mikhail Bulgakov stated that “no-one can compare with him,” and Vladimir Nabokov wrote a full biography. Many of the stories in this collection have been adapted for stage and film, including “The Nose” as an opera by Dmitri Shostakovich.&lt;/p&gt;
-			&lt;p&gt;Collected here are all of the public domain translations into English of Gogol’s short stories, in chronological order of the original Russian publication. They were translated by Claud Field, Isabel F. Hapgood, and Vizetelly and Company.&lt;/p&gt;
+			&lt;p&gt;Collected here are all of the public domain translations into English of Gogol’s short stories, in chronological order of the original Russian publication. They were translated by Claud Field, Isabel &lt;abbr&gt;F.&lt;/abbr&gt; Hapgood, Vizetelly and Company and George Tolstoy.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
+		<!-- Taras Bulba, and Other Tales -->
 		<dc:source>https://www.gutenberg.org/ebooks/1197</dc:source>
-		<!-- Taras Bulba, and Other Tales by Nikolai Vasilevich Gogol -->
-		<dc:source>https://www.gutenberg.org/ebooks/36238</dc:source>
-		<!-- The Mantle, and Other Stories by Nikolai Vasilevich Gogol -->
-		<dc:source>https://en.wikisource.org/wiki/Old-Fashioned_Farmers</dc:source>
-		<!-- Old-Fashioned Farmers by Nikolai Vasilevich Gogol -->
 		<dc:source>https://archive.org/details/tarasbulbaalsos00gogogoog</dc:source>
+		<!-- The Mantle, and Other Stories -->
+		<dc:source>https://www.gutenberg.org/ebooks/36238</dc:source>
 		<dc:source>https://archive.org/details/mantleotherstori00gogorich</dc:source>
+		<!-- Old-Fashioned Farmers -->
+		<dc:source>https://en.wikisource.org/wiki/Old-Fashioned_Farmers</dc:source>
 		<dc:source>https://archive.org/details/stjohnseveandot00hapggoog</dc:source>
+		<!-- The Night of Christmas Eve -->
+		<dc:source>https://www.gutenberg.org/ebooks/58409</dc:source>
+		<dc:source>https://archive.org/details/cossacktales00gogorich/</dc:source>
 		<meta property="se:production-notes">This isn’t all of Gogol’s short stories, but it’s all that I could find that have been translated into English pre-1923.</meta>
 		<meta property="se:word-count">154970</meta>
 		<meta property="se:reading-ease.flesch">70.33</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Nikolai_Gogol_bibliography</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/nikolai-gogol_short-fiction_claud-field_isabel-f-hapgood_vizetelly-and-company</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/nikolai-gogol_short-fiction_claud-field_isabel-f-hapgood_vizetelly-and-company_george-tolstoy</meta>
 		<dc:creator id="author">Nikolai Gogol</dc:creator>
 		<meta property="file-as" refines="#author">Gogol, Nikolai</meta>
 		<meta property="se:name.person.full-name" refines="#author">Nikolai Vasilievich Gogol</meta>
@@ -92,6 +95,11 @@
 		<meta property="display-seq" refines="#translator-3">3</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
+		<dc:contributor id="translator-4">George Tolstoy</dc:contributor>
+		<meta property="file-as" refines="#translator-4">Tolstoy, George</meta>
+		<meta property="display-seq" refines="#translator-4">4</meta>
+		<meta property="role" refines="#translator-4" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Ilya Repin</dc:contributor>
 		<meta property="file-as" refines="#artist">Repin, Ilya</meta>
 		<meta property="alternate-script" refines="#artist">Илья́ Ефи́мович Ре́пин</meta>
@@ -140,6 +148,7 @@
 		<item href="text/the-calash.xhtml" id="the-calash.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-mantle.xhtml" id="the-mantle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-mysterious-portrait.xhtml" id="the-mysterious-portrait.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-night-of-christmas-eve.xhtml" id="the-night-of-christmas-eve.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-nose.xhtml" id="the-nose.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-viy.xhtml" id="the-viy.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -150,6 +159,7 @@
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="st-johns-eve.xhtml"/>
 		<itemref idref="a-may-night.xhtml"/>
+		<itemref idref="the-night-of-christmas-eve.xhtml"/>
 		<itemref idref="old-fashioned-farmers.xhtml"/>
 		<itemref idref="taras-bulba.xhtml"/>
 		<itemref idref="the-viy.xhtml"/>
