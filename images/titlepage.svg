@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 650">
-	<title>The titlepage for the Standard Ebooks edition of Short Fiction, by Nikolai Gogol. Translated by Claud Field, Isabel F. Hapgood, and Vizetelly and Company</title>
+	<title>The titlepage for the Standard Ebooks edition of Short Fiction, by Nikolai Gogol. Translated by Claud Field, Isabel F. Hapgood, Vizetelly and Company, and George Tolstoy</title>
 	<style type="text/css">
 		text{
 			font-family: League Spartan;
@@ -29,7 +29,8 @@
 	</style>
 	<text class="title" x="700" y="130">SHORT FICTION</text>
 	<text class="author" x="700" y="290">NIKOLAI GOGOL</text>
-	<text class="contributor-descriptor" x="700" y="480">translated by</text>
-	<text class="contributor" x="700" y="540">CLAUD FIELD, ISABEL F. HAPGOOD,</text>
-	<text class="contributor" x="700" y="600">AND VIZETELLY AND COMPANY</text>
+	<text class="contributor-descriptor" x="700" y="420">translated by</text>
+	<text class="contributor" x="700" y="480">CLAUD FIELD, ISABEL F. HAPGOOD,</text>
+	<text class="contributor" x="700" y="540">VIZETELLY AND COMPANY</text>
+	<text class="contributor" x="700" y="600">AND GEORGE TOLSTOY</text>
 </svg>
