@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
 		<dc:subject id="subject-1">Short stories</dc:subject>
@@ -34,21 +34,24 @@
 		<dc:subject id="subject-3">Russia -- Social life and customs -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Short stories, Russian -- Translations into English</dc:subject>
 		<dc:subject id="subject-5">Gogol, Nikolai Vasilevich, 1809-1852 -- Translations into English</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1197</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/1197</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/36238</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/36238</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/36238</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85121813</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008116767</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008116778</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008111647</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Gogol’s translated short stories and novellas ordered by date of publication.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Nikolai Gogol spent most of his literary career writing short stories, drawing inspiration from his childhood in Ukraine and his adult life in &lt;abbr&gt;St.&lt;/abbr&gt; Petersburg. His stories are filled with larger than life yet relatable characters and perfectly described locations, and span many genres from historical epics to early horror and surrealism.&lt;/p&gt;
 			&lt;p&gt;His influence on Russian literature cannot be understated: Fyodor Dostoevsky is quoted as saying “We all come out from Gogol’s ‘Overcoat,’ ” (presented here as “The Mantle”) and mentioned him by name in &lt;i&gt;Crime and Punishment&lt;/i&gt;; Mikhail Bulgakov stated that “no-one can compare with him,” and Vladimir Nabokov wrote a full biography. Many of the stories in this collection have been adapted for stage and film, including “The Nose” as an opera by Dmitri Shostakovich.&lt;/p&gt;
 			&lt;p&gt;Collected here are all of the public domain translations into English of Gogol’s short stories, in chronological order of the original Russian publication. They were translated by Claud Field, Isabel &lt;abbr&gt;F.&lt;/abbr&gt; Hapgood, Vizetelly and Company, and George Tolstoy.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Taras Bulba, and Other Tales -->
 		<dc:source>https://www.gutenberg.org/ebooks/1197</dc:source>
